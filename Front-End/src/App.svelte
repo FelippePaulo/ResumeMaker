@@ -30,13 +30,15 @@
     .form-div{
         grid-area: form;
         height: 1000px;
+        
+        border-right: 1px solid rgb(26, 26, 26);
         text-align: center;
         background-color: aqua;
     }
     .preview-div{
         grid-area: preview;
         text-align: center;
-        background-color: brown;
+        background-color: rgb(46, 46, 46);
     }
     header{
         grid-area: header;
